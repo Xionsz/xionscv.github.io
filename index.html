@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+ </head>
+<body>
+<div class="container">
+    <input id="display" readonly>
+    <div class="buttons"></div>
+    <button onclick="hapussemua('AC')" class="operator">AC</button>
+    <button onclick="hapus('DEL')" class="operator">DEL</button>
+        <button onclick="p('%')" class="operator">%</button>
+            <button onclick="p('/')" class="operator">/</button>
+
+    <button onclick="p('7')">7</button>
+    <button onclick="p('8')">8</button>
+    <button onclick="p('9')">9</button>
+    
+    <button onclick="p('*')" class="operator">*</button>
+
+    <button onclick="p('4')">4</button>
+    <button onclick="p('5')">5</button>
+    <button onclick="p('6')">6</button>
+    <button onclick="p('-')" class="operator">-</button>
+
+
+    <button onclick="p('1')">1</button>
+    <button onclick="p('2')">2</button>
+    <button onclick="p('3')">3</button>
+
+    <button onclick="p('+')" class="operator">+</button>
+    
+    <button onclick="p('0')"">0</button>
+    <button onclick="p('00')">00</button>
+    
+    <button onclick="p('.')"  "operator" id=".">.</button>
+    <button onclick="samadengan()" class="operator">=</button>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
